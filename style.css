@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.flex {
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-bottom: 100px;
+    max-width: 370px;
+}
+
+.card:hover {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.icon {
+    max-width: 70px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 17px;
+}
+
+.desc {
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    color: #666666;
+    margin-bottom: 25px;
+}
+
+.more__link {
+    font-size: 13px;
+    color: black;
+}
+
+.content {
+    background: #FAFAFA;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 100px;
+}
+
+.wrapper__title {
+    max-width: 800px;
+}
+
+.card__icon {
+    margin-bottom: 25px;
+}
+
+.wrapper__title h1 {
+    font-family: 'Gilroy-Bold';
+    font-size: 45px;
+    line-height: 53px;
+    color: #000000;
+    text-align: center;
+    margin-top: 92px;
+    margin-bottom: 19px;
+}
+
+.wrapper__title p {
+    font-family: 'Gilroy-Regular';
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    margin-bottom: 54px;
+    color: #666666;
+}
+
+.wrapper__card {
+    display: flex;
+}
+
+.card__content {
+    width: 370px;
+    height: 549px;
+    margin: 15px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__content:hover {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.card__title {
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.card__description {
+    font-family: 'Gilroy-Regular';
+    margin-bottom: 39px;
+    color: #AAAAAA;
+    text-align: center;
+    padding: 0 30px;
+}
+
+.button {
+    width: 150px;
+    height: 50px;
+    margin-bottom: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+}
